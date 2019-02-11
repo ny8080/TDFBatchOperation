@@ -1,0 +1,19 @@
+source 'git@git.2dfire.net:ios/cocoapods-spec.git'
+platform :ios, '8.0'
+
+#use_frameworks!
+
+plugin 'cocoapods-tdfire-binary'
+
+tdfire_use_binary!
+# tdfire_use_source_pods ['TDFModuleKit']
+
+target 'TDFBatchOperation_Example' do
+  pod 'TDFBatchOperation', :path => '../'
+
+  target 'TDFBatchOperation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

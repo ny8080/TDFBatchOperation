@@ -1,0 +1,19 @@
+PODS:
+  - TDFBatchOperation (1.1.6):
+    - TDFCoreProtocol (~> 1.0)
+  - TDFCoreProtocol (1.2.5)
+
+DEPENDENCIES:
+  - TDFBatchOperation (from `../`)
+
+EXTERNAL SOURCES:
+  TDFBatchOperation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TDFBatchOperation: 900ea5cde61c97e1284edfa6c13931c246198f3d
+  TDFCoreProtocol: cef7fe5894e1bb178946cdbb65eec226aa816656
+
+PODFILE CHECKSUM: 8a29e49f5c604cebd3741c1e0be4044fcddcac5d
+
+COCOAPODS: 1.2.1
